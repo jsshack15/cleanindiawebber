@@ -205,12 +205,58 @@ Swachhta House trophy will be rewarded to the best work by the end of the academ
 </div>
 </section>
 
+<!-- alert -->
+<section id="Alert">
+<div class="container">
+<img style="margin:0px auto;display:block" src="E:\hackathon-clean india\pic_assests\round.png"/>
+<h1>Get Alert For Clean India Compaign Nearby Your Location</h1><hr>
+<h5>Find Location On Google Map</h5>
+ <!-- Embedded Google Map  -->
+ <iframe width="300" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.5230794515874!2d77.3595036!3d28.614081000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce541dc34567f%3A0x4fd027cb23d66b19!2sJSS+Academy+Of+Technical+Education!5e0!3m2!1sen!2sus!4v1439941200258"></iframe></p>
+  <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                   
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone</label>
+                                <input type="text" class="form-control" placeholder="0123456789" id="phone" required data-validation-required-message="Please enter number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>City</label>
+                                <input type="city" class="form-control" placeholder="city" id="city" required data-validation-required-message="Please enter your city.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+						<div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Street</label>
+                                <input type="street" class="form-control" placeholder="chandani chowk" id="street" required data-validation-required-message="Please enter your street.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+						<div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+						</div>
+						</div>
+
+
+</div>
+</section>
+
 <!--suggestion  -->
     <section class="success" id="CONTACT">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Give Your Suggestion On Clean India</h2>
+                    <h2>CONTACT</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -236,14 +282,14 @@ Swachhta House trophy will be rewarded to the best work by the end of the academ
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>City</label>
-                                <input type="city" class="form-control" placeholder="City" id="city" required data-validation-required-message="Please enter your city.">
+                                <input type="text" class="form-control" placeholder="City" id="city" required data-validation-required-message="Please enter city.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
 						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>State</label>
-                                <input type="state" class="form-control" placeholder="State" id="state" required data-validation-required-message="Please enter your state.">
+                                <input type="text" class="form-control" placeholder="Name" id="state" required data-validation-required-message="Please enter state.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -306,6 +352,7 @@ function getRandomSize(min, max) {
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+	<script src="js/alert_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
